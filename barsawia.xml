@@ -1,0 +1,1412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE MudletPackage>
+<MudletPackage version="1.0">
+    <TriggerPackage>
+        <TriggerGroup isActive="yes" isFolder="yes" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+            <name>Barsawia</name>
+            <script></script>
+            <triggerType>0</triggerType>
+            <conditonLineDelta>0</conditonLineDelta>
+            <mStayOpen>0</mStayOpen>
+            <mCommand></mCommand>
+            <packageName></packageName>
+            <mFgColor>#ff0000</mFgColor>
+            <mBgColor>#ffff00</mBgColor>
+            <mSoundFile></mSoundFile>
+            <colorTriggerFgColor>#000000</colorTriggerFgColor>
+            <colorTriggerBgColor>#000000</colorTriggerBgColor>
+            <regexCodeList/>
+            <regexCodePropertyList/>
+            <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                <name>postepy</name>
+                <script>deleteLine()
+
+wynik = &quot;&quot;
+
+if line == &quot;Nie poczyniles zadnych postepow, od kiedy sie przebudziles.&quot; then
+	wynik = &quot;[0/25]&quot; 
+elseif line == &quot;Wyglada na to, ze nie nauczyles sie dzis jeszcze niczego znaczacego.&quot; then
+	wynik = &quot;[1/25]&quot;
+elseif line == &quot;Jak do tej pory wyciagnales niewiele przydatnych wnioskow z dzisiejszego dnia.&quot; then
+	wynik = &quot;[2/25]&quot;
+elseif line == &quot;Niewykluczone, ze po dzisiejszym dniu zostanie ci w glowie cos nowego.&quot; then
+	wynik = &quot;[3/25]&quot;
+elseif line == &quot;Wydaje ci sie, ze ten dzien przyniosl ci juz odrobine nowych doswiadczen.&quot; then
+	wynik = &quot;[4/25]&quot;
+elseif line == &quot;Chyba przyswoiles juz dzis kilka nowych umiejetnosci.&quot; then
+	wynik = &quot;[5/25]&quot;
+elseif line == &quot;Masz powody przypuszczac, ze jakas czesc nabytych dzis doswiadczen zaowocuje w przyszlosci.&quot; then
+	wynik = &quot;[6/25]&quot;
+elseif line == &quot;Jak narazie nauczyles sie dzis paru rzeczy, ktore powinny jeszcze kiedys ci sie przydac.&quot; then
+	wynik = &quot;[7/25]&quot;
+elseif line == &quot;Nabyte dzis doswiadczenia uczynily cie nieco lepszym poszukiwaczem przygod.&quot; then
+	wynik = &quot;[8/25]&quot;
+elseif line == &quot;Z pewnoscia przyswoiles dzis troche wiedzy przydatnej w podrozach.&quot; then
+	wynik = &quot;[9/25]&quot;
+elseif line == &quot;Ciezar ostatnich przezyc wywarl na tobie pozytywne zmiany.&quot; then
+	wynik = &quot;[10/25]&quot;
+elseif line == &quot;Ostatnie przejscia zaowocowaly u ciebie spora iloscia nowej wiedzy.&quot; then
+	wynik = &quot;[11/25]&quot;
+elseif line == &quot;Wnioski wyciagniete z ostatnich przygod znaczaco zasilaja pule twoich doswiadczen.&quot; then
+	wynik = &quot;[12/25]&quot;
+elseif line == &quot;Twoja ostatnia wedrowka zaowocowala wieloma nowonabytymi umiejetnosciami.&quot; then
+	wynik = &quot;[13/25]&quot;
+elseif line == &quot;Ostatnie wydarzenia okazaly sie dla ciebie sposobnoscia do nabycia wielu nieznanych ci wczesniej umiejetnosci.&quot; then
+	wynik = &quot;[14/25]&quot;
+elseif line == &quot;Mnogosc twoich ostatnich przezyc wiele cie nauczyla.&quot; then
+	wynik = &quot;[15/25]&quot;
+elseif line == &quot;Twoje ostatnie przejscia obfitowaly w nowe doswiadczenia.&quot; then
+	wynik = &quot;[16/25]&quot;
+elseif line == &quot;Z cala pewnoscia mocno rozwinales ostatnio swoje umiejetnosci.&quot; then
+	wynik = &quot;[17/25]&quot;
+elseif line == &quot;Twoje niedawne przygody przyprawily cie o bardzo wiele nowych doswiadczen.&quot; then
+	wynik = &quot;[18/25]&quot;
+elseif line == &quot;Podczas swojej niedawnej wedrowki zdobyles mnostwo nowej wiedzy.&quot; then
+	wynik = &quot;[19/25]&quot;
+elseif line == &quot;Dokonane przez ciebie ostatnio wyczyny pozostawily trwaly slad wsrod twoich doswiadczen.&quot; then
+	wynik = &quot;[20/25]&quot;
+elseif line == &quot;Liczne ostatnio przygody odbily sie bardzo mocno na twoich doswiadczeniach.&quot; then
+	wynik = &quot;[21/25]&quot;
+elseif line == &quot;Sciezka, ktora podazales ostatnimi czasy uczyla cie czegos nowego na kazdym kroku.&quot; then
+	wynik = &quot;[22/25]&quot;
+elseif line == &quot;Nabyles mnostwo nowych umiejetnosci podczas ostatnich przygod.&quot; then
+	wynik = &quot;[23/25]&quot;
+elseif line == &quot;Minione wydarzenia, ktorych byles glownym aktorem, wywarly ogromne zmiany na twoim doswiadczeniu.&quot; then
+	wynik = &quot;[24/25]&quot;
+elseif line == &quot;Ogrom doswiadczen, jakich nabyles podczas ostatnich przygod jest wrecz nie do opisania.&quot; then
+	wynik = &quot;[25/25]&quot;
+end
+
+cecho(&quot;&lt;green:black&gt;\n&quot;.. wynik .. line)</script>
+                <triggerType>0</triggerType>
+                <conditonLineDelta>0</conditonLineDelta>
+                <mStayOpen>0</mStayOpen>
+                <mCommand></mCommand>
+                <packageName></packageName>
+                <mFgColor>#ff0000</mFgColor>
+                <mBgColor>#ffff00</mBgColor>
+                <mSoundFile></mSoundFile>
+                <colorTriggerFgColor>#000000</colorTriggerFgColor>
+                <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                <regexCodeList>
+                    <string>Nie poczyniles zadnych postepow, od kiedy sie przebudziles.</string>
+                    <string>Wyglada na to, ze nie nauczyles sie dzis jeszcze niczego znaczacego.</string>
+                    <string>Jak do tej pory wyciagnales niewiele przydatnych wnioskow z dzisiejszego dnia.</string>
+                    <string>Niewykluczone, ze po dzisiejszym dniu zostanie ci w glowie cos nowego.</string>
+                    <string>Wydaje ci sie, ze ten dzien przyniosl ci juz odrobine nowych doswiadczen.</string>
+                    <string>Chyba przyswoiles juz dzis kilka nowych umiejetnosci.</string>
+                    <string>Masz powody przypuszczac, ze jakas czesc nabytych dzis doswiadczen zaowocuje w przyszlosci.</string>
+                    <string>Jak narazie nauczyles sie dzis paru rzeczy, ktore powinny jeszcze kiedys ci sie przydac.</string>
+                    <string>Nabyte dzis doswiadczenia uczynily cie nieco lepszym poszukiwaczem przygod.</string>
+                    <string>Z pewnoscia przyswoiles dzis troche wiedzy przydatnej w podrozach.</string>
+                    <string>Ciezar ostatnich przezyc wywarl na tobie pozytywne zmiany.</string>
+                    <string>Ostatnie przejscia zaowocowaly u ciebie spora iloscia nowej wiedzy.</string>
+                    <string>Wnioski wyciagniete z ostatnich przygod znaczaco zasilaja pule twoich doswiadczen.</string>
+                    <string>Twoja ostatnia wedrowka zaowocowala wieloma nowonabytymi umiejetnosciami.</string>
+                    <string>Ostatnie wydarzenia okazaly sie dla ciebie sposobnoscia do nabycia wielu nieznanych ci wczesniej umiejetnosci.</string>
+                    <string>Mnogosc twoich ostatnich przezyc wiele cie nauczyla.</string>
+                    <string>Twoje ostatnie przejscia obfitowaly w nowe doswiadczenia.</string>
+                    <string>Z cala pewnoscia mocno rozwinales ostatnio swoje umiejetnosci.</string>
+                    <string>Twoje niedawne przygody przyprawily cie o bardzo wiele nowych doswiadczen.</string>
+                    <string>Podczas swojej niedawnej wedrowki zdobyles mnostwo nowej wiedzy.</string>
+                    <string>Dokonane przez ciebie ostatnio wyczyny pozostawily trwaly slad wsrod twoich doswiadczen.</string>
+                    <string>Liczne ostatnio przygody odbily sie bardzo mocno na twoich doswiadczeniach.</string>
+                    <string>Sciezka, ktora podazales ostatnimi czasy uczyla cie czegos nowego na kazdym kroku.</string>
+                    <string>Nabyles mnostwo nowych umiejetnosci podczas ostatnich przygod.</string>
+                    <string>Minione wydarzenia, ktorych byles glownym aktorem, wywarly ogromne zmiany na twoim doswiadczeniu.</string>
+                    <string>Ogrom doswiadczen, jakich nabyles podczas ostatnich przygod jest wrecz nie do opisania.</string>
+                </regexCodeList>
+                <regexCodePropertyList>
+                    <integer>3</integer>
+                    <integer>3</integer>
+                    <integer>3</integer>
+                    <integer>3</integer>
+                    <integer>3</integer>
+                    <integer>3</integer>
+                    <integer>3</integer>
+                    <integer>3</integer>
+                    <integer>3</integer>
+                    <integer>3</integer>
+                    <integer>3</integer>
+                    <integer>3</integer>
+                    <integer>3</integer>
+                    <integer>3</integer>
+                    <integer>3</integer>
+                    <integer>3</integer>
+                    <integer>3</integer>
+                    <integer>3</integer>
+                    <integer>3</integer>
+                    <integer>3</integer>
+                    <integer>3</integer>
+                    <integer>3</integer>
+                    <integer>3</integer>
+                    <integer>3</integer>
+                    <integer>3</integer>
+                    <integer>3</integer>
+                </regexCodePropertyList>
+            </Trigger>
+            <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                <name>slawa_tygodniowa</name>
+                <script>deleteLine()
+
+wynik = &quot;&quot;
+
+if line == &quot;W ostatnim czasie nie udalo Ci sie dokonac jeszcze niczego znaczacego.&quot; then
+   wynik=&quot;[1/12]&quot;
+elseif line == &quot;Zaledwie garsc osob uslyszala o Twych ostatnich dokonaniach.&quot; then
+   wynik=&quot;[2/12]&quot;
+elseif line == &quot;Niewiele Twoich czynow z niedalekiej przeszlosci zostalo docenionych.&quot; then
+   wynik=&quot;[3/12]&quot;
+elseif line == &quot;Twoja ostatnia dzialalnosc zostala uznana wsrod lokalnej spolecznosci.&quot; then
+   wynik=&quot;[4/12]&quot;
+elseif line == &quot;Twoje imie zaczyna coraz czesciej padac w karczemnych opowiesciach.&quot; then
+   wynik=&quot;[5/12]&quot;
+elseif line == &quot;Swoimi niedawnymi czynami zyskales szacunek wsrod wedrowcow.&quot; then
+   wynik=&quot;[6/12]&quot;
+elseif line == &quot;Wiesci o Twoich ostatnich poczynaniach szybko sie rozprzestrzeniaja.&quot; then
+   wynik=&quot;[7/12]&quot;
+elseif line == &quot;Zdobyles powazanie dzieki swym niedawnym dokonaniom.&quot; then
+   wynik=&quot;[8/12]&quot;
+elseif line == &quot;Twoje imie ostatnio zyskalo na popularnosci.&quot; then
+   wynik=&quot;[9/12]&quot;
+elseif line == &quot;Mnogosc niedawnych doswiadczen z pewnoscia zapewnila Ci slawe.&quot; then
+   wynik=&quot;[10/12]&quot;
+elseif line == &quot;Twoje ostatnie dokonania niewatpliwie Cie rozslawily.&quot; then
+   wynik=&quot;[11/12]&quot;
+elseif line == &quot;Ogromna ilosc niedawnych czynow znaczaco wpynela na Twoja slawe.&quot; then
+   wynik=&quot;[12/12]&quot;
+end
+
+cecho(&quot;&lt;green:black&gt;\n&quot; .. wynik .. line)</script>
+                <triggerType>0</triggerType>
+                <conditonLineDelta>0</conditonLineDelta>
+                <mStayOpen>0</mStayOpen>
+                <mCommand></mCommand>
+                <packageName></packageName>
+                <mFgColor>#ff0000</mFgColor>
+                <mBgColor>#ffff00</mBgColor>
+                <mSoundFile></mSoundFile>
+                <colorTriggerFgColor>#000000</colorTriggerFgColor>
+                <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                <regexCodeList>
+                    <string>W ostatnim czasie nie udalo Ci sie dokonac jeszcze niczego znaczacego.</string>
+                    <string>Zaledwie garsc osob uslyszala o Twych ostatnich dokonaniach.</string>
+                    <string>Niewiele Twoich czynow z niedalekiej przeszlosci zostalo docenionych.</string>
+                    <string>Twoja ostatnia dzialalnosc zostala uznana wsrod lokalnej spolecznosci.</string>
+                    <string>Twoje imie zaczyna coraz czesciej padac w karczemnych opowiesciach.</string>
+                    <string>Swoimi niedawnymi czynami zyskales szacunek wsrod wedrowcow.</string>
+                    <string>Wiesci o Twoich ostatnich poczynaniach szybko sie rozprzestrzeniaja.</string>
+                    <string>Zdobyles powazanie dzieki swym niedawnym dokonaniom.</string>
+                    <string>Twoje imie ostatnio zyskalo na popularnosci.</string>
+                    <string>Mnogosc niedawnych doswiadczen z pewnoscia zapewnila Ci slawe.</string>
+                    <string>Twoje ostatnie dokonania niewatpliwie Cie rozslawily.</string>
+                    <string>Ogromna ilosc niedawnych czynow znaczaco wpynela na Twoja slawe.</string>
+                </regexCodeList>
+                <regexCodePropertyList>
+                    <integer>3</integer>
+                    <integer>3</integer>
+                    <integer>3</integer>
+                    <integer>3</integer>
+                    <integer>3</integer>
+                    <integer>3</integer>
+                    <integer>3</integer>
+                    <integer>3</integer>
+                    <integer>3</integer>
+                    <integer>3</integer>
+                    <integer>3</integer>
+                    <integer>3</integer>
+                </regexCodePropertyList>
+            </Trigger>
+            <TriggerGroup isActive="yes" isFolder="yes" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                <name>scinanie</name>
+                <script></script>
+                <triggerType>0</triggerType>
+                <conditonLineDelta>0</conditonLineDelta>
+                <mStayOpen>0</mStayOpen>
+                <mCommand></mCommand>
+                <packageName></packageName>
+                <mFgColor>#ff0000</mFgColor>
+                <mBgColor>#ffff00</mBgColor>
+                <mSoundFile></mSoundFile>
+                <colorTriggerFgColor>#000000</colorTriggerFgColor>
+                <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                <regexCodeList/>
+                <regexCodePropertyList/>
+                <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                    <name>drzewa na wyrebie</name>
+                    <script>if not string.ends(line,&quot;:&quot;) then
+	lista = {}
+	lista[0] = &quot; cedr&quot;
+    lista[1] = &quot; hebanowiec&quot;
+    lista[2] = &quot; sekwoja&quot;
+    lista[3] = &quot; xylech&quot;
+    lista[4] = &quot; cis&quot;
+    lista[5] = &quot; magnolia&quot;
+    lista[6] = &quot; tuja&quot;
+    lista[7] = &quot; grab&quot;
+    lista[8] = &quot; wiaz&quot;
+    lista[9] = &quot; modrzew&quot;
+    lista[10] = &quot; jesion&quot;
+    lista[11] = &quot; kalopanaks&quot;
+    lista[12] = &quot; jarzab&quot;
+    lista[13] = &quot; olsza&quot;
+    lista[14] = &quot; klon&quot;
+    lista[15] = &quot; topola&quot;
+    lista[16] = &quot; kasztan&quot;
+    lista[17] = &quot; jodla&quot;
+    lista[18] = &quot; buk&quot;
+    lista[19] = &quot; osika&quot;
+    lista[20] = &quot; wierzba&quot;
+    lista[21] = &quot; lipa&quot;
+    lista[22] = &quot; sosna&quot;
+    lista[23] = &quot; swierk&quot;
+    lista[24] = &quot; brzoza&quot;
+    lista[25] = &quot; dab&quot;
+
+	 zetnij = {}
+    zetnij[0] = &quot;zetnij cedr&quot;
+    zetnij[1] = &quot;zetnij hebanowca&quot;
+    zetnij[2] = &quot;zetnij sekwoje&quot;
+    zetnij[3] = &quot;zetnij xylech&quot;
+    zetnij[4] = &quot;zetnij cis&quot;
+    zetnij[5] = &quot;zetnij magnolie&quot;
+    zetnij[6] = &quot;zetnij tuje&quot;
+    zetnij[7] = &quot;zetnij grab&quot;
+    zetnij[8] = &quot;zetnij wiaz&quot;
+    zetnij[9] = &quot;zetnij modrzew&quot;
+    zetnij[10] = &quot;zetnij jesion&quot;
+    zetnij[11] = &quot;zetnij kalopanaks&quot;
+    zetnij[12] = &quot;zetnij jarzab&quot;
+    zetnij[13] = &quot;zetnij olsze&quot;
+    zetnij[14] = &quot;zetnij klon&quot;
+    zetnij[15] = &quot;zetnij topole&quot;
+    zetnij[16] = &quot;zetnij kasztan&quot;
+    zetnij[17] = &quot;zetnij jodle&quot;
+    zetnij[18] = &quot;zetnij buk&quot;
+    zetnij[19] = &quot;zetnij osike&quot;
+    zetnij[20] = &quot;zetnij wierzbe&quot;
+    zetnij[21] = &quot;zetnij lipe&quot;
+    zetnij[22] = &quot;zetnij sosne&quot;
+    zetnij[23] = &quot;zetnij swierk&quot;
+    zetnij[24] = &quot;zetnij brzoze&quot;
+    zetnij[25] = &quot;zetnij dab&quot;
+
+	tmp = &quot;&quot;
+	for i=25,0,-1 do
+--		echo(i .. &quot;, &quot;)
+		if string.match(line,lista[i]) then 
+			tmp = zetnij[i]
+			break
+		end
+	end
+	
+	if type(myaliasID)==&quot;number&quot; then
+
+		killAlias(myaliasID)
+	end
+	myaliasID = tempAlias(&quot;^zet$&quot;, [[send (tmp)]])
+	cecho(&quot;&lt;blue:yellow&gt;\n==================================\n&quot;)
+	cecho(&quot;&lt;blue:yellow&gt;&quot; .. tmp)
+	cecho(&quot;&lt;blue:yellow&gt;\n==================================\n&quot;)
+end</script>
+                    <triggerType>0</triggerType>
+                    <conditonLineDelta>1</conditonLineDelta>
+                    <mStayOpen>1</mStayOpen>
+                    <mCommand></mCommand>
+                    <packageName></packageName>
+                    <mFgColor>#ff0000</mFgColor>
+                    <mBgColor>#ffff00</mBgColor>
+                    <mSoundFile></mSoundFile>
+                    <colorTriggerFgColor>#000000</colorTriggerFgColor>
+                    <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                    <regexCodeList>
+                        <string>Sposrod otaczajacych cie drzew, nastepujace nadaja sie do scinki:</string>
+                        <string>Oto drzewa, rosnace na tym wyrebie, ktora nadaja sie do scinki:</string>
+                        <string>W tej czesci lasu dostrzegasz nastepujace nadajace sie do scinki drzewa:</string>
+                    </regexCodeList>
+                    <regexCodePropertyList>
+                        <integer>3</integer>
+                        <integer>3</integer>
+                        <integer>3</integer>
+                    </regexCodePropertyList>
+                </Trigger>
+                <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                    <name>dalej trzeba scinac</name>
+                    <script>cecho(&quot;&lt;blue:yellow&gt;\n==================================\n&quot;)
+cecho(&quot;&lt;blue:yellow&gt;trzeba jeszcze scinac&quot; )
+cecho(&quot;&lt;blue:yellow&gt;\n==================================\n&quot;)</script>
+                    <triggerType>0</triggerType>
+                    <conditonLineDelta>0</conditonLineDelta>
+                    <mStayOpen>0</mStayOpen>
+                    <mCommand></mCommand>
+                    <packageName></packageName>
+                    <mFgColor>#ff0000</mFgColor>
+                    <mBgColor>#ffff00</mBgColor>
+                    <mSoundFile></mSoundFile>
+                    <colorTriggerFgColor>#000000</colorTriggerFgColor>
+                    <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                    <regexCodeList>
+                        <string>^Wkladajac cala sile w uderzenie trafiasz .* w klin powstaly w .*, spodziewajac sie upadku scinanego drzewa. Te jednak wciaz stoi, co sprawia, ze trzeba je podciac z innej strony.$</string>
+                        <string>^Silnymi uderzeniami .* docierasz klinem do rdzenia drzewa, jednak pien rosliny jest zbyt rozlegly, by jeden wylom mogl zwalic cala rosline na ziemie. Konieczne jest sciecie drzewa jeszcze z innej strony.$</string>
+                        <string>^Z dokladnego wymachu trafiasz .* w sam srodek wylomu w .*, rozbijajac ostatnie wlokna rdzenia\. Roslina jednak nie przelamuje sie, nadal wymagajac podciecia w innych miejscach wokol pnia\.$</string>
+                        <string>^Naglym szarpnieciem sciegien wyrzucasz przed siebie .*, trafiajac w wylom w .*\. Roslina jednak nie upada, gdyz jej pien jest na to zbyt szeroki i wymaga jeszcze podciecia\.$</string>
+                    </regexCodeList>
+                    <regexCodePropertyList>
+                        <integer>1</integer>
+                        <integer>1</integer>
+                        <integer>1</integer>
+                        <integer>1</integer>
+                    </regexCodePropertyList>
+                </Trigger>
+                <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                    <name>sciete</name>
+                    <script>if type(myaliasID)==&quot;number&quot; then
+	killAlias(myaliasID)
+end
+myaliasID = tempAlias(&quot;^zet$&quot;, [[send (&quot;okd&quot;)]])
+cecho(&quot;&lt;blue:yellow&gt;\n==================================\n&quot;)
+cecho(&quot;&lt;blue:yellow&gt;sciete!!!!!&quot;)
+cecho(&quot;&lt;blue:yellow&gt;\n==================================\n&quot;)</script>
+                    <triggerType>0</triggerType>
+                    <conditonLineDelta>0</conditonLineDelta>
+                    <mStayOpen>0</mStayOpen>
+                    <mCommand></mCommand>
+                    <packageName></packageName>
+                    <mFgColor>#ff0000</mFgColor>
+                    <mBgColor>#ffff00</mBgColor>
+                    <mSoundFile></mSoundFile>
+                    <colorTriggerFgColor>#000000</colorTriggerFgColor>
+                    <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                    <regexCodeList>
+                        <string>Mocnym uderzeniem .* rozbijasz ostatni stabilny punkt rdzenia .*\. Roslina lamie pozostale fragmenty drewna, przekrzywia sie i z ogluszajacym szumem spada na ziemie, wzbijajac przy tym tumany kurzu!$</string>
+                        <string>^Ostatnim uderzeniem .* konczysz wyrabywanie klinu w .*\. Nagle drzewo zaczyna przerazliwie skrzypiec, po czym przekrzywia sie i z hukiem zwala sie na ziemie!$</string>
+                        <string>^Silnym szarpnieciem .* rozwarstwiasz ostatnie niezbedne fragmenty rdzenia rosliny. Ta jednak nie porusza sie. Gdy juz wydaje sie, ze trzeba bedzie poprawic spartaczona robote, drzewo raptownie przekrzywia sie i zwala na ziemie, czyniac przy tym niezwykly tumult!$</string>
+                        <string>^Dokladnymi ciosami .* upewniasz sie, ze klin w pniu .* jest dostatecznie rozlegly. Lekkim pchnieciem ramion wprawiasz rosline w ruch, po czym odbiegasz na bok kilka metrow. Drzewo przez chwile skrzypi przerazliwie, po czym zwala sie z hukiem na ziemie!$</string>
+                    </regexCodeList>
+                    <regexCodePropertyList>
+                        <integer>1</integer>
+                        <integer>1</integer>
+                        <integer>1</integer>
+                        <integer>1</integer>
+                    </regexCodePropertyList>
+                </Trigger>
+                <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                    <name>sa jeszcze konary</name>
+                    <script>if type(myaliasID)==&quot;number&quot; then
+	killAlias(myaliasID)
+end
+myaliasID = tempAlias(&quot;^zet$&quot;, [[send (&quot;okd&quot;)]])
+cecho(&quot;&lt;blue:yellow&gt;\n==================================\n&quot;)
+cecho(&quot;&lt;blue:yellow&gt;sa jeszcze konary&quot; )
+cecho(&quot;&lt;blue:yellow&gt;\n==================================\n&quot;)</script>
+                    <triggerType>0</triggerType>
+                    <conditonLineDelta>0</conditonLineDelta>
+                    <mStayOpen>0</mStayOpen>
+                    <mCommand></mCommand>
+                    <packageName></packageName>
+                    <mFgColor>#ff0000</mFgColor>
+                    <mBgColor>#ffff00</mBgColor>
+                    <mSoundFile></mSoundFile>
+                    <colorTriggerFgColor>#000000</colorTriggerFgColor>
+                    <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                    <regexCodeList>
+                        <string>^Poteznym zamachem swych ramion odcinasz .* gruby konar .*\. W tej czesci rosliny nie ma juz innych, duzych galezi, jednak nieco dalej wciaz jeszcze stercza one z pnia drzewa\.$</string>
+                        <string>^Wprawnym ruchem swych dloni, dzierzacych .* odcinasz ostatni konar w tej czesci.*\.$</string>
+                        <string>^Dokladnym uderzeniem .* odwalasz ostatni konar z pnia .*. W tej czesci rosliny jest juz czysto, jednak dalej wciaz widac grube galezie, sterczace z wnetrza drewna\.$</string>
+                        <string>^Silnym pociagnieciem .* rozszczepiasz spory kawal drewna, oczyszczajac ta czesc .* z grubych konarow\.$</string>
+                    </regexCodeList>
+                    <regexCodePropertyList>
+                        <integer>1</integer>
+                        <integer>1</integer>
+                        <integer>1</integer>
+                        <integer>1</integer>
+                    </regexCodePropertyList>
+                </Trigger>
+                <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                    <name>koniec konarow</name>
+                    <script>if type(myaliasID)==&quot;number&quot; then
+	killAlias(myaliasID)
+end
+myaliasID = tempAlias(&quot;^zet$&quot;, [[send (&quot;ogd&quot;)]])
+cecho(&quot;&lt;blue:yellow&gt;\n==================================\n&quot;)
+cecho(&quot;&lt;blue:yellow&gt;koniec konarow&quot; )
+cecho(&quot;&lt;blue:yellow&gt;\n==================================\n&quot;)</script>
+                    <triggerType>0</triggerType>
+                    <conditonLineDelta>0</conditonLineDelta>
+                    <mStayOpen>0</mStayOpen>
+                    <mCommand></mCommand>
+                    <packageName></packageName>
+                    <mFgColor>#ff0000</mFgColor>
+                    <mBgColor>#ffff00</mBgColor>
+                    <mSoundFile></mSoundFile>
+                    <colorTriggerFgColor>#000000</colorTriggerFgColor>
+                    <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                    <regexCodeList>
+                        <string>^Ostatnimi uderzeniami .* konczysz usuwanie grubych konarow z pnia .*\.$</string>
+                        <string>^Wraz z dokladnym uderzeniem .* odrabujesz ostatni spory konar .*\.$</string>
+                        <string>^Celnym ciosem .* trafiasz tuz przy pniu .*, odcinajac ostatni gruby konar rosliny\.$</string>
+                        <string>^Czujesz, jak robota posunela sie naprzod. Najgrubsze konary .* zostaly odrabane, teraz naszedl czas na nieco mniejsze galezie\.$</string>
+                    </regexCodeList>
+                    <regexCodePropertyList>
+                        <integer>1</integer>
+                        <integer>1</integer>
+                        <integer>1</integer>
+                        <integer>1</integer>
+                    </regexCodePropertyList>
+                </Trigger>
+                <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                    <name>sa jeszcze galezie</name>
+                    <script>if type(myaliasID)==&quot;number&quot; then
+	killAlias(myaliasID)
+end
+myaliasID = tempAlias(&quot;^zet$&quot;, [[send (&quot;ogd&quot;)]])
+cecho(&quot;&lt;blue:yellow&gt;\n==================================\n&quot;)
+cecho(&quot;&lt;blue:yellow&gt;sa jeszcze galezie&quot; )
+cecho(&quot;&lt;blue:yellow&gt;\n==================================\n&quot;)</script>
+                    <triggerType>0</triggerType>
+                    <conditonLineDelta>0</conditonLineDelta>
+                    <mStayOpen>0</mStayOpen>
+                    <mCommand></mCommand>
+                    <packageName></packageName>
+                    <mFgColor>#ff0000</mFgColor>
+                    <mBgColor>#ffff00</mBgColor>
+                    <mSoundFile></mSoundFile>
+                    <colorTriggerFgColor>#000000</colorTriggerFgColor>
+                    <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                    <regexCodeList>
+                        <string>^.* z danej czesci .* usuwasz ostatnie galezie, ktore momentalnie spadaja na ziemie, szeleszczac przy tym donosnie\.$</string>
+                        <string>^Wprawnymi pociagnieciami .* usuwasz wszystkie mniejsze galezie obrastajace ta czesc .*\.$</string>
+                        <string>^Szybkimi ruchami rak trzymajacych .* usuwasz spora czesc galezi przytwierdzonych do .*\. Wciaz jednak sa miejsca, ktore wymagaja oczyszczenia z pedow\.$</string>
+                        <string>^Z wyrazem lekkiego zasapania usuwasz ostatnie galezie z danej czesci .*, lecz dalsza powierzchnia pnia zdaje sie byc nadal obrosnieta\.$</string>
+                    </regexCodeList>
+                    <regexCodePropertyList>
+                        <integer>1</integer>
+                        <integer>1</integer>
+                        <integer>1</integer>
+                        <integer>1</integer>
+                    </regexCodePropertyList>
+                </Trigger>
+                <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                    <name>koniec galezi</name>
+                    <script>if type(myaliasID)==&quot;number&quot; then
+	killAlias(myaliasID)
+end
+myaliasID = tempAlias(&quot;^zet$&quot;, [[send (&quot;okk&quot;)]])
+cecho(&quot;&lt;blue:yellow&gt;\n==================================\n&quot;)
+cecho(&quot;&lt;blue:yellow&gt;koniec galezi&quot; )
+cecho(&quot;&lt;blue:yellow&gt;\n==================================\n&quot;)</script>
+                    <triggerType>0</triggerType>
+                    <conditonLineDelta>0</conditonLineDelta>
+                    <mStayOpen>0</mStayOpen>
+                    <mCommand></mCommand>
+                    <packageName></packageName>
+                    <mFgColor>#ff0000</mFgColor>
+                    <mBgColor>#ffff00</mBgColor>
+                    <mSoundFile></mSoundFile>
+                    <colorTriggerFgColor>#000000</colorTriggerFgColor>
+                    <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                    <regexCodeList>
+                        <string>^Szybkimi pociagnieciami .* odcinasz ostatnie galezie z pnia .*\.$</string>
+                        <string>^Ostatnie pociagniecia .* koncza ten etap ociosywania .*\. Roslina pozbawiona jest mniejszych galezi\.$</string>
+                        <string>^Z lekkiego wymachu .* scinasz ostatnie galezie sterczace samotnie z .*\.$</string>
+                        <string>^Sprawnymi ruchami rak dzierzacych .* usuwasz ostatnie galezie z pnia .*\.$</string>
+                    </regexCodeList>
+                    <regexCodePropertyList>
+                        <integer>1</integer>
+                        <integer>1</integer>
+                        <integer>1</integer>
+                        <integer>1</integer>
+                    </regexCodePropertyList>
+                </Trigger>
+                <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                    <name>jeszcze trzeba oczyscic</name>
+                    <script>if type(myaliasID)==&quot;number&quot; then
+	killAlias(myaliasID)
+end
+myaliasID = tempAlias(&quot;^zet$&quot;, [[send (&quot;okk&quot;)]])
+cecho(&quot;&lt;blue:yellow&gt;\n==================================\n&quot;)
+cecho(&quot;&lt;blue:yellow&gt;jeszcze trzeba oczyscic&quot; )
+cecho(&quot;&lt;blue:yellow&gt;\n==================================\n&quot;)</script>
+                    <triggerType>0</triggerType>
+                    <conditonLineDelta>0</conditonLineDelta>
+                    <mStayOpen>0</mStayOpen>
+                    <mCommand></mCommand>
+                    <packageName></packageName>
+                    <mFgColor>#ff0000</mFgColor>
+                    <mBgColor>#ffff00</mBgColor>
+                    <mSoundFile></mSoundFile>
+                    <colorTriggerFgColor>#000000</colorTriggerFgColor>
+                    <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                    <regexCodeList>
+                        <string>^Skorkowaciale kawalki pokrywy .* spadaja na ziemie, odwalone .* z tej czesci rosliny\.$</string>
+                        <string>^Szybkimi ruchami trzymajacych .* rak odwalasz ostatnie kawaly kory z tej czesci.*\.$</string>
+                        <string>^Dokladnymi pociagnieciami .* podwazasz kore .*, usuwajac ja z tej czesci rosliny. Dalej jednak wciaz pokrywa ona pien\.$</string>
+                        <string>^Ostatnie fragmenty kory z tej czesci .* spadaja na ziemie. Nieco dalej jednak wciaz przylega ona do pnia rosliny\.$</string>
+                    </regexCodeList>
+                    <regexCodePropertyList>
+                        <integer>1</integer>
+                        <integer>1</integer>
+                        <integer>1</integer>
+                        <integer>1</integer>
+                    </regexCodePropertyList>
+                </Trigger>
+                <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                    <name>koniec kory</name>
+                    <script>if type(myaliasID)==&quot;number&quot; then
+	killAlias(myaliasID)
+end
+myaliasID = tempAlias(&quot;^zet$&quot;, [[send (&quot;dk&quot;)]])
+cecho(&quot;&lt;blue:yellow&gt;\n==================================\n&quot;)
+cecho(&quot;&lt;blue:yellow&gt;koniec kory&quot; )
+cecho(&quot;&lt;blue:yellow&gt;\n==================================\n&quot;)</script>
+                    <triggerType>0</triggerType>
+                    <conditonLineDelta>0</conditonLineDelta>
+                    <mStayOpen>0</mStayOpen>
+                    <mCommand></mCommand>
+                    <packageName></packageName>
+                    <mFgColor>#ff0000</mFgColor>
+                    <mBgColor>#ffff00</mBgColor>
+                    <mSoundFile></mSoundFile>
+                    <colorTriggerFgColor>#000000</colorTriggerFgColor>
+                    <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                    <regexCodeList>
+                        <string>^Wprawnymi ruchami .* podwazasz ostatnie kawalki kory, ktore odpryskuja od.*, spadajac na lesne poszycie\.$</string>
+                        <string>^Energicznymi ruchami .* odwalasz ostatnie kawalki kory z .*\.$</string>
+                        <string>^Szybkimi pociagnieciami .* usuwasz ostatnie fragmenty kory, pokrywajace .*\.$</string>
+                        <string>^Konczysz odgarniac kore z .*, a ostatni jej kawalek wlasnie spada na lesne poszycie\.$</string>
+                    </regexCodeList>
+                    <regexCodePropertyList>
+                        <integer>1</integer>
+                        <integer>1</integer>
+                        <integer>1</integer>
+                        <integer>1</integer>
+                    </regexCodePropertyList>
+                </Trigger>
+                <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                    <name>trzeba jeszcze doczyscic</name>
+                    <script>if type(myaliasID)==&quot;number&quot; then
+	killAlias(myaliasID)
+end
+myaliasID = tempAlias(&quot;^zet$&quot;, [[send (&quot;dk&quot;)]])
+cecho(&quot;&lt;blue:yellow&gt;\n==================================\n&quot;)
+cecho(&quot;&lt;blue:yellow&gt;trzeba jeszcze doczyscic&quot; )
+cecho(&quot;&lt;blue:yellow&gt;\n==================================\n&quot;)</script>
+                    <triggerType>0</triggerType>
+                    <conditonLineDelta>0</conditonLineDelta>
+                    <mStayOpen>0</mStayOpen>
+                    <mCommand></mCommand>
+                    <packageName></packageName>
+                    <mFgColor>#ff0000</mFgColor>
+                    <mBgColor>#ffff00</mBgColor>
+                    <mSoundFile></mSoundFile>
+                    <colorTriggerFgColor>#000000</colorTriggerFgColor>
+                    <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                    <regexCodeList>
+                        <string>^Przesuwasz dokladnie ostrzem .* po powierzchni .*, doczyszczajac te czesc pnia\.$</string>
+                        <string>^Dokladnie oczyszczasz .* za pomoca .*, jednak kloda jest na tyle dluga, ze podobna prace trzeba wykonac takze w innych czesciach rosliny\.$</string>
+                        <string>^Ostatnie fragmenty upartej kory i konarow .* spadaja na ziemie. Nieco dalej pien jednak wciaz wymaga doczyszczenia\.$</string>
+                        <string>^Szybkimi pociagnieciami .*, uzywanego niczym hebel, doczyszczasz ta czesc .*\.$</string>
+                    </regexCodeList>
+                    <regexCodePropertyList>
+                        <integer>1</integer>
+                        <integer>1</integer>
+                        <integer>1</integer>
+                        <integer>1</integer>
+                    </regexCodePropertyList>
+                </Trigger>
+                <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                    <name>koniec pracy</name>
+                    <script>if type(myaliasID)==&quot;number&quot; then
+	killAlias(myaliasID)
+end
+myaliasID = tempAlias(&quot;^zet$&quot;, [[send (&quot;wez klode&quot;) send(&quot;sp&quot;)]])
+cecho(&quot;&lt;yellow:blue&gt;\n==================================\n&quot;)
+cecho(&quot;&lt;yellow:blue&gt;==================================\n&quot;)
+cecho(&quot;&lt;yellow:blue&gt;koniec pracy&quot; )
+cecho(&quot;&lt;yellow:blue&gt;\n==================================\n&quot;)
+cecho(&quot;&lt;yellow:blue&gt;==================================\n&quot;)</script>
+                    <triggerType>0</triggerType>
+                    <conditonLineDelta>0</conditonLineDelta>
+                    <mStayOpen>0</mStayOpen>
+                    <mCommand></mCommand>
+                    <packageName></packageName>
+                    <mFgColor>#ff0000</mFgColor>
+                    <mBgColor>#ffff00</mBgColor>
+                    <mSoundFile></mSoundFile>
+                    <colorTriggerFgColor>#000000</colorTriggerFgColor>
+                    <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                    <regexCodeList>
+                        <string>^Ostatnimi ruchami rak dzierzacych .* doczyszczasz .*, konczac prace nad powalona kloda\.$</string>
+                        <string>^Sprawnymi pociagnieciami prostej zwyklej siekiery ostatecznie doczyszczasz powierzchnie .*\.$</string>
+                        <string>^Wraz ze spadajacymi na lesne runo, ostatnimi fragmentami konarow i upartej kory konczysz prace nad .*\.$</string>
+                        <string>^Ostatnie kawalki poszarpanych konarow i zniszczonej korowiny .* spadaja na ziemie\. Kloda zostala calkowicie ociosana\.$</string>
+                    </regexCodeList>
+                    <regexCodePropertyList>
+                        <integer>1</integer>
+                        <integer>1</integer>
+                        <integer>1</integer>
+                        <integer>1</integer>
+                    </regexCodePropertyList>
+                </Trigger>
+            </TriggerGroup>
+            <TriggerGroup isActive="yes" isFolder="yes" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                <name>bronie i zbroje</name>
+                <script></script>
+                <triggerType>0</triggerType>
+                <conditonLineDelta>0</conditonLineDelta>
+                <mStayOpen>0</mStayOpen>
+                <mCommand></mCommand>
+                <packageName></packageName>
+                <mFgColor>#ff0000</mFgColor>
+                <mBgColor>#ffff00</mBgColor>
+                <mSoundFile></mSoundFile>
+                <colorTriggerFgColor>#000000</colorTriggerFgColor>
+                <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                <regexCodeList/>
+                <regexCodePropertyList/>
+                <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                    <name>jakosc broni</name>
+                    <script>deleteLine()
+testowaLinia = line 
+
+if matches[3] == &quot;calkowicie nieskuteczn&quot; then 
+	testowaLinia = string.gsub(testowaLinia, &quot; calkowicie nieskuteczn&quot;, &quot; [1/10] calkowicie nieskuteczn&quot;)
+elseif matches[3] == &quot;malo skuteczn&quot; then 
+	testowaLinia = string.gsub(testowaLinia, &quot; malo skuteczn&quot;, &quot; [2/10] malo skuteczn&quot;)
+elseif matches[3] == &quot;niespecjalnie &quot; then 
+	testowaLinia = string.gsub(testowaLinia, &quot; niespecjalnie skuteczn&quot;, &quot; [3/10] niespecjalnie skuteczn&quot;)
+elseif matches[3] == &quot;przecietnie skuteczn&quot; then 
+	testowaLinia = string.gsub(testowaLinia, &quot; przecietnie skuteczn&quot;, &quot; [4/10] przecietnie skuteczn&quot;)
+elseif matches[3] == &quot;dosc skuteczn&quot; then 
+	testowaLinia = string.gsub(testowaLinia, &quot; dosc skuteczn&quot;, &quot; [5/10] dosc skuteczn&quot;)
+elseif matches[3] == &quot;skuteczn&quot; then 
+	testowaLinia = string.gsub(testowaLinia, &quot; skuteczn&quot;, &quot;[6/10] skuteczn&quot;)
+elseif matches[3] == &quot;wyjatkowo skuteczn&quot; then 
+	testowaLinia = string.gsub(testowaLinia, &quot; wyjatkowo skuteczn&quot;, &quot; [7/10] wyjatkowo skuteczn&quot;)
+elseif matches[3] == &quot;nadzwyczaj skuteczn&quot; then 
+	testowaLinia = string.gsub(testowaLinia, &quot; nadzwyczaj skuteczn&quot;, &quot; [8/10] nadzwyczaj skuteczn&quot;)
+elseif matches[3] == &quot;fantastycznie skuteczn&quot; then 
+	testowaLinia = string.gsub(testowaLinia, &quot; fantastycznie skuteczn&quot;, &quot; [9/10] fantastycznie skuteczn&quot;)
+elseif matches[3] == &quot;niespotykanie skuteczn&quot; then
+	testowaLinia = string.gsub(testowaLinia, &quot; niespotykanie skuteczn&quot;, &quot; [10/10] niespotykanie skuteczn&quot;)
+end
+
+
+if matches[4] == &quot;zle wywazon&quot; then 
+	testowaLinia = string.gsub(testowaLinia, &quot;zle wywazon&quot;, &quot;[1/10] zle wywazon&quot;)
+elseif matches[4] == &quot;mizernie wywazon&quot; then 
+	testowaLinia = string.gsub(testowaLinia, &quot;mizernie wywazon&quot;, &quot;[2/10] mizernie wywazon&quot;)
+elseif matches[4] == &quot;niespecjalnie wywazon&quot; then 
+	testowaLinia = string.gsub(testowaLinia, &quot;niespecjalnie wywazon&quot;, &quot;[3/10] niespecjalnie wywazon&quot;)
+elseif matches[4] == &quot;przecietnie wywazon&quot; then 
+	testowaLinia = string.gsub(testowaLinia, &quot;przecietnie wywazon&quot;, &quot;[4/10] przecietnie wywazon&quot;)
+elseif matches[4] == &quot;dosc dobrze wywazon&quot; then 
+	testowaLinia = string.gsub(testowaLinia, &quot;dosc dobrze wywazon&quot;, &quot;[5/10] dosc dobrze wywazon&quot;)
+elseif matches[4] == &quot;dobrze wywazon&quot; then 
+	testowaLinia = string.gsub(testowaLinia, &quot;dobrze wywazon&quot;, &quot;[6/10] dobrze wywazon&quot;)
+elseif matches[4] == &quot;bardzo dobrze wywazon&quot; then 
+	testowaLinia = string.gsub(testowaLinia, &quot;bardzo dobrze wywazon&quot;, &quot;[7/10] bardzo dobrze wywazon&quot;)
+elseif matches[4] == &quot;perfekcyjnie wywazon&quot; then 
+	testowaLinia = string.gsub(testowaLinia, &quot;perfekcyjnie wywazon&quot;, &quot;[8/10] perfekcyjnie wywazon&quot;)
+elseif matches[4] == &quot;genialnie wywazon&quot; then 
+	testowaLinia = string.gsub(testowaLinia, &quot;genialnie wywazon&quot;, &quot;[9/10] genialnie wywazon&quot;)
+elseif matches[4] == &quot;fantastycznie wywazon&quot; then
+   testowaLinia = string.gsub(testowaLinia, &quot;fantastycznie wywazon&quot;, &quot;[10/10] fantastycznie wywazon&quot;)
+end
+
+cecho(&quot;&lt;yellow:black&gt;\n&quot; .. testowaLinia)</script>
+                    <triggerType>0</triggerType>
+                    <conditonLineDelta>0</conditonLineDelta>
+                    <mStayOpen>0</mStayOpen>
+                    <mCommand></mCommand>
+                    <packageName></packageName>
+                    <mFgColor>#ff0000</mFgColor>
+                    <mBgColor>#ffff00</mBgColor>
+                    <mSoundFile></mSoundFile>
+                    <colorTriggerFgColor>#000000</colorTriggerFgColor>
+                    <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                    <regexCodeList>
+                        <string>^W Twojej ocenie (.*) jest (.*)[ya] oraz (.*)[ya] jak na ten typ broni.$</string>
+                    </regexCodeList>
+                    <regexCodePropertyList>
+                        <integer>1</integer>
+                    </regexCodePropertyList>
+                </Trigger>
+            </TriggerGroup>
+            <TriggerGroup isActive="yes" isFolder="yes" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                <name>walka</name>
+                <script></script>
+                <triggerType>0</triggerType>
+                <conditonLineDelta>0</conditonLineDelta>
+                <mStayOpen>0</mStayOpen>
+                <mCommand></mCommand>
+                <packageName></packageName>
+                <mFgColor>#ff0000</mFgColor>
+                <mBgColor>#ffff00</mBgColor>
+                <mSoundFile></mSoundFile>
+                <colorTriggerFgColor>#000000</colorTriggerFgColor>
+                <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                <regexCodeList/>
+                <regexCodePropertyList/>
+                <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                    <name>przelamanie</name>
+                    <script>deleteLine()
+cecho(&quot;&lt;red:white&gt;\n&quot; .. line)
+cecho(&quot;&lt;red:white&gt;\n&quot; .. line)
+cecho(&quot;&lt;red:white&gt;\n&quot; .. line)</script>
+                    <triggerType>0</triggerType>
+                    <conditonLineDelta>0</conditonLineDelta>
+                    <mStayOpen>0</mStayOpen>
+                    <mCommand></mCommand>
+                    <packageName></packageName>
+                    <mFgColor>#ff0000</mFgColor>
+                    <mBgColor>#ffff00</mBgColor>
+                    <mSoundFile></mSoundFile>
+                    <colorTriggerFgColor>#000000</colorTriggerFgColor>
+                    <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                    <regexCodeList>
+                        <string>^(.*) zrecznie zaslania (.*) przed twoimi ciosami.$</string>
+                    </regexCodeList>
+                    <regexCodePropertyList>
+                        <integer>1</integer>
+                    </regexCodePropertyList>
+                </Trigger>
+                <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                    <name>licznik killsow</name>
+                    <script>deleteLine()
+cecho(&quot;&lt;black:white&gt;\n&quot; .. line)
+echo(&quot;\n|&quot; .. matches[2] .. &quot;|&quot;)</script>
+                    <triggerType>0</triggerType>
+                    <conditonLineDelta>0</conditonLineDelta>
+                    <mStayOpen>0</mStayOpen>
+                    <mCommand></mCommand>
+                    <packageName></packageName>
+                    <mFgColor>#ff0000</mFgColor>
+                    <mBgColor>#ffff00</mBgColor>
+                    <mSoundFile></mSoundFile>
+                    <colorTriggerFgColor>#000000</colorTriggerFgColor>
+                    <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                    <regexCodeList>
+                        <string>^Zabiles (.*)\.$</string>
+                    </regexCodeList>
+                    <regexCodePropertyList>
+                        <integer>1</integer>
+                    </regexCodePropertyList>
+                </Trigger>
+            </TriggerGroup>
+            <TriggerGroup isActive="yes" isFolder="yes" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                <name>kolorowanie</name>
+                <script></script>
+                <triggerType>0</triggerType>
+                <conditonLineDelta>0</conditonLineDelta>
+                <mStayOpen>0</mStayOpen>
+                <mCommand></mCommand>
+                <packageName></packageName>
+                <mFgColor>#ff0000</mFgColor>
+                <mBgColor>#ffff00</mBgColor>
+                <mSoundFile></mSoundFile>
+                <colorTriggerFgColor>#000000</colorTriggerFgColor>
+                <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                <regexCodeList/>
+                <regexCodePropertyList/>
+                <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="yes" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                    <name>pelna lampa</name>
+                    <script></script>
+                    <triggerType>0</triggerType>
+                    <conditonLineDelta>0</conditonLineDelta>
+                    <mStayOpen>0</mStayOpen>
+                    <mCommand></mCommand>
+                    <packageName></packageName>
+                    <mFgColor>#0000ff</mFgColor>
+                    <mBgColor>#000000</mBgColor>
+                    <mSoundFile></mSoundFile>
+                    <colorTriggerFgColor>#000000</colorTriggerFgColor>
+                    <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                    <regexCodeList>
+                        <string>&gt; Przeciez lampa jest juz pelna.</string>
+                    </regexCodeList>
+                    <regexCodePropertyList>
+                        <integer>3</integer>
+                    </regexCodePropertyList>
+                </Trigger>
+                <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="yes" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                    <name>pusta lampa</name>
+                    <script></script>
+                    <triggerType>0</triggerType>
+                    <conditonLineDelta>0</conditonLineDelta>
+                    <mStayOpen>0</mStayOpen>
+                    <mCommand></mCommand>
+                    <packageName></packageName>
+                    <mFgColor>#ff0000</mFgColor>
+                    <mBgColor>#ffff00</mBgColor>
+                    <mSoundFile></mSoundFile>
+                    <colorTriggerFgColor>#000000</colorTriggerFgColor>
+                    <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                    <regexCodeList>
+                        <string>&gt; Butelka oleju jest pusta.</string>
+                    </regexCodeList>
+                    <regexCodePropertyList>
+                        <integer>3</integer>
+                    </regexCodePropertyList>
+                </Trigger>
+            </TriggerGroup>
+            <TriggerGroup isActive="yes" isFolder="yes" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                <name>Gornictwo</name>
+                <script></script>
+                <triggerType>0</triggerType>
+                <conditonLineDelta>0</conditonLineDelta>
+                <mStayOpen>0</mStayOpen>
+                <mCommand></mCommand>
+                <packageName></packageName>
+                <mFgColor>#ff0000</mFgColor>
+                <mBgColor>#ffff00</mBgColor>
+                <mSoundFile></mSoundFile>
+                <colorTriggerFgColor>#000000</colorTriggerFgColor>
+                <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                <regexCodeList/>
+                <regexCodePropertyList/>
+                <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="yes" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                    <name>koniec kucia</name>
+                    <script>disableTimer(&quot;gornictwo&quot;)</script>
+                    <triggerType>0</triggerType>
+                    <conditonLineDelta>0</conditonLineDelta>
+                    <mStayOpen>0</mStayOpen>
+                    <mCommand></mCommand>
+                    <packageName></packageName>
+                    <mFgColor>#5500ff</mFgColor>
+                    <mBgColor>#ffffff</mBgColor>
+                    <mSoundFile></mSoundFile>
+                    <colorTriggerFgColor>#000000</colorTriggerFgColor>
+                    <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                    <regexCodeList>
+                        <string>^Przestajesz kuc.$</string>
+                        <string>Przejmujace zmeczenie nie pozwala ci dalej kuc.</string>
+                    </regexCodeList>
+                    <regexCodePropertyList>
+                        <integer>1</integer>
+                        <integer>3</integer>
+                    </regexCodePropertyList>
+                </Trigger>
+                <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="yes" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                    <name>znalazles mineral</name>
+                    <script>disableTimer(&quot;gornictwo&quot;)
+enableTimer(&quot;gornictwo&quot;)</script>
+                    <triggerType>0</triggerType>
+                    <conditonLineDelta>0</conditonLineDelta>
+                    <mStayOpen>0</mStayOpen>
+                    <mCommand></mCommand>
+                    <packageName></packageName>
+                    <mFgColor>#ff0000</mFgColor>
+                    <mBgColor>#ffff00</mBgColor>
+                    <mSoundFile></mSoundFile>
+                    <colorTriggerFgColor>#000000</colorTriggerFgColor>
+                    <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                    <regexCodeList>
+                        <string>Wsrod gruzu dostrzegasz kilka okruchow jakiegos mineralu.</string>
+                    </regexCodeList>
+                    <regexCodePropertyList>
+                        <integer>3</integer>
+                    </regexCodePropertyList>
+                </Trigger>
+                <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                    <name>poczatek kucia</name>
+                    <script>enableTimer(&quot;gornictwo&quot;)</script>
+                    <triggerType>0</triggerType>
+                    <conditonLineDelta>0</conditonLineDelta>
+                    <mStayOpen>0</mStayOpen>
+                    <mCommand></mCommand>
+                    <packageName></packageName>
+                    <mFgColor>#ff0000</mFgColor>
+                    <mBgColor>#ffff00</mBgColor>
+                    <mSoundFile></mSoundFile>
+                    <colorTriggerFgColor>#000000</colorTriggerFgColor>
+                    <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                    <regexCodeList>
+                        <string>^Zaczynasz kuc (.*) sciane\.$</string>
+                        <string>^&gt; Zaczynasz kuc (.*) sciane.$</string>
+                    </regexCodeList>
+                    <regexCodePropertyList>
+                        <integer>1</integer>
+                        <integer>1</integer>
+                    </regexCodePropertyList>
+                </Trigger>
+                <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                    <name>brak stempla</name>
+                    <script>deleteLine();
+cecho(&quot;&lt;bleck:red&gt;!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n&quot;)
+cecho(&quot;&lt;bleck:red&gt;Glosny trzask uswiadamia ci, ze kucie w tej czesci kopalni nie jest juz bezpieczne!\n&quot;)
+cecho(&quot;&lt;bleck:red&gt;!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n&quot;)</script>
+                    <triggerType>0</triggerType>
+                    <conditonLineDelta>0</conditonLineDelta>
+                    <mStayOpen>0</mStayOpen>
+                    <mCommand></mCommand>
+                    <packageName></packageName>
+                    <mFgColor>#ff0000</mFgColor>
+                    <mBgColor>#ffff00</mBgColor>
+                    <mSoundFile></mSoundFile>
+                    <colorTriggerFgColor>#000000</colorTriggerFgColor>
+                    <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                    <regexCodeList>
+                        <string>Glosny trzask uswiadamia ci, ze kucie w tej czesci kopalni nie jest juz bezpieczne!</string>
+                    </regexCodeList>
+                    <regexCodePropertyList>
+                        <integer>3</integer>
+                    </regexCodePropertyList>
+                </Trigger>
+            </TriggerGroup>
+        </TriggerGroup>
+    </TriggerPackage>
+    <TimerPackage>
+        <TimerGroup isActive="yes" isFolder="yes" isTempTimer="no" isOffsetTimer="no">
+            <name>Barsawia</name>
+            <script></script>
+            <command></command>
+            <packageName></packageName>
+            <time>00:00:00.000</time>
+            <Timer isActive="no" isFolder="no" isTempTimer="no" isOffsetTimer="no">
+                <name>gornictwo</name>
+                <script>cecho(&quot;&lt;black:orange&gt;--------------------------\n&quot;)
+cecho(&quot;&lt;black:orange&gt;Dlugo nic nie wykules!!!!!\n&quot;)
+cecho(&quot;&lt;black:orange&gt;--------------------------\n&quot;)</script>
+                <command></command>
+                <packageName></packageName>
+                <time>00:01:30.000</time>
+            </Timer>
+        </TimerGroup>
+    </TimerPackage>
+    <AliasPackage>
+        <AliasGroup isActive="yes" isFolder="yes">
+            <name>Barsa</name>
+            <script></script>
+            <command></command>
+            <packageName></packageName>
+            <regex></regex>
+            <Alias isActive="yes" isFolder="no">
+                <name>kasa</name>
+                <script>send(&quot;otworz sakwe&quot;)
+send(&quot;wez monety z sakwy&quot;)
+send(&quot;zamknij sakwe&quot;)</script>
+                <command></command>
+                <packageName></packageName>
+                <regex>^sak$</regex>
+            </Alias>
+            <Alias isActive="yes" isFolder="no">
+                <name>sak</name>
+                <script>send(&quot;otworz sakwe&quot;)
+send(&quot;wloz monety do sakwy&quot;)
+send(&quot;zamknij sakwe&quot;)</script>
+                <command></command>
+                <packageName></packageName>
+                <regex>^kasa$</regex>
+            </Alias>
+            <Alias isActive="yes" isFolder="no">
+                <name>zbadaj wyreb</name>
+                <script></script>
+                <command>zbadaj wyreb</command>
+                <packageName></packageName>
+                <regex>^zw$</regex>
+            </Alias>
+            <Alias isActive="yes" isFolder="no">
+                <name>odrab konary scietego drzewa</name>
+                <script></script>
+                <command>odrab konary scietego drzewa</command>
+                <packageName></packageName>
+                <regex>^ok$</regex>
+            </Alias>
+            <Alias isActive="yes" isFolder="no">
+                <name>odetnij galezie ociosanego drzewa</name>
+                <script></script>
+                <command>odetnij galezie ociosanego drzewa</command>
+                <packageName></packageName>
+                <regex>^od$</regex>
+            </Alias>
+            <Alias isActive="yes" isFolder="no">
+                <name>odgarnij kore klody</name>
+                <script></script>
+                <command>odgarnij kore klody</command>
+                <packageName></packageName>
+                <regex>^okk$</regex>
+            </Alias>
+            <Alias isActive="yes" isFolder="no">
+                <name>doczysc klode</name>
+                <script></script>
+                <command>doczysc klode</command>
+                <packageName></packageName>
+                <regex>^dk$</regex>
+            </Alias>
+            <Alias isActive="yes" isFolder="no">
+                <name>ziola</name>
+                <script>send(&quot;otworz sloik&quot;)
+send(&quot;wloz ziola do sloika&quot;)
+send(&quot;zamknij sloik&quot;)</script>
+                <command></command>
+                <packageName></packageName>
+                <regex>^ziola$</regex>
+            </Alias>
+            <Alias isActive="yes" isFolder="no">
+                <name>dobadz mieczy</name>
+                <script>send(&quot;dobadz miecza z pochwy&quot;)
+send(&quot;dobadz miecza z drugiej pochwy&quot;)</script>
+                <command></command>
+                <packageName></packageName>
+                <regex>^miecz$</regex>
+            </Alias>
+            <Alias isActive="yes" isFolder="no">
+                <name>wloz miecze do pochwy</name>
+                <script>send(&quot;wloz miecz do pochwy&quot;)
+send(&quot;wloz miecz do drugiej pochwy&quot;)</script>
+                <command></command>
+                <packageName></packageName>
+                <regex>^wp$</regex>
+            </Alias>
+            <Alias isActive="yes" isFolder="no">
+                <name>zakladanie zbroi</name>
+                <script>send(&quot;otworz plecak&quot;)
+send(&quot;wez zbroje skorzana z plecaka&quot;)
+send(&quot;zaloz ja&quot;)
+send(&quot;wez helm z plecaka&quot;)
+send(&quot;zaloz go&quot;)
+send(&quot;zdejmij pas&quot;)
+send(&quot;wez nagolenniki z plecaka&quot;)
+send(&quot;zaloz je&quot;)
+send(&quot;zaloz pas&quot;)
+send(&quot;zamknij plecak&quot;)</script>
+                <command></command>
+                <packageName></packageName>
+                <regex>^kol$</regex>
+            </Alias>
+            <Alias isActive="yes" isFolder="no">
+                <name>zmiana siekiery</name>
+                <script>send(&quot;odloz zlamana siekiere&quot;)
+send(&quot;otworz plecak&quot;)
+send(&quot;wez siekiere z plecaka&quot;)
+send(&quot;dobadz jej&quot;)
+send(&quot;zamknij plecak&quot;)</script>
+                <command></command>
+                <packageName></packageName>
+                <regex>^sie$</regex>
+            </Alias>
+            <Alias isActive="yes" isFolder="no">
+                <name>zdejmij zbroje</name>
+                <script>send(&quot;otworz plecak&quot;)
+send(&quot;zdejmij zbroje skorzana&quot;)
+send(&quot;wloz ja do plecaka&quot;)
+send(&quot;zdejmij helm&quot;)
+send(&quot;wloz go do plecaka&quot;)
+send(&quot;zdejmij pas&quot;)
+send(&quot;zdejmij nagolenniki&quot;)
+send(&quot;wloz nagolenniki do plecaka&quot;)
+send(&quot;zaloz pas&quot;)
+send(&quot;zamknij plecak&quot;)</script>
+                <command></command>
+                <packageName></packageName>
+                <regex>^szu$</regex>
+            </Alias>
+            <Alias isActive="yes" isFolder="no">
+                <name>napelnij olejem</name>
+                <script>send(&quot;otworz plecak&quot;)
+send(&quot;wez olej z plecaka&quot;)
+send(&quot;napelnij lampe olejem&quot;)
+send(&quot;napelnij lampe olejem&quot;)
+send(&quot;wloz olej do plecaka&quot;)
+send(&quot;zamknij plecak&quot;)</script>
+                <command></command>
+                <packageName></packageName>
+                <regex>^nl$</regex>
+            </Alias>
+            <Alias isActive="yes" isFolder="no">
+                <name>przecisnij sie przez sciek</name>
+                <script>send(&quot;przecisnij sie przez sciek&quot;)</script>
+                <command></command>
+                <packageName></packageName>
+                <regex>^prz$</regex>
+            </Alias>
+            <AliasGroup isActive="yes" isFolder="yes">
+                <name>gornictwo</name>
+                <script></script>
+                <command></command>
+                <packageName></packageName>
+                <regex></regex>
+                <Alias isActive="yes" isFolder="no">
+                    <name>oskardzik</name>
+                    <script>send(&quot;otworz plecak&quot;)
+send(&quot;wloz kilof do plecaka&quot;)
+send(&quot;wez oskardzik z plecaka&quot;)
+send(&quot;dobadz go&quot;)
+send(&quot;zamknij plecak&quot;)</script>
+                    <command></command>
+                    <packageName></packageName>
+                    <regex>^osk$</regex>
+                </Alias>
+                <Alias isActive="yes" isFolder="no">
+                    <name>kilof</name>
+                    <script>send(&quot;otworz plecak&quot;)
+send(&quot;wloz oskardzik do plecaka&quot;)
+send(&quot;wez stalowy kilof z plecaka&quot;)
+send(&quot;dobadz go&quot;)
+send(&quot;zamknij plecak&quot;)</script>
+                    <command></command>
+                    <packageName></packageName>
+                    <regex>^kil$</regex>
+                </Alias>
+                <Alias isActive="yes" isFolder="no">
+                    <name>zbieranie</name>
+                    <script>send(&quot;wez mineraly&quot;)
+send(&quot;ot&quot;)
+send(&quot;wloz mineraly do plecaka&quot;)
+send(&quot;zam&quot;)</script>
+                    <command></command>
+                    <packageName></packageName>
+                    <regex>^wm$</regex>
+                </Alias>
+                <Alias isActive="yes" isFolder="no">
+                    <name>sprzedawanie</name>
+                    <script>send(&quot;otworz plecak&quot;)
+send(&quot;wez mineraly z plecaka&quot;)
+send(&quot;wloz czarne brylki do plecaka&quot;)
+send(&quot;wloz blekitnosrebrzyste brylki do plecaka&quot;)
+send(&quot;zamknij plecak&quot;)</script>
+                    <command></command>
+                    <packageName></packageName>
+                    <regex>^spm$</regex>
+                </Alias>
+                <Alias isActive="yes" isFolder="no">
+                    <name>sprawdzanie</name>
+                    <script>send(&quot;ot&quot;)
+send(&quot;wloz kilof do plecaka&quot;)
+send(&quot;wez oskardzik z plecaka&quot;)
+send(&quot;dobadz go&quot;)
+send(&quot;wez mineraly&quot;)
+send(&quot;wloz mineraly do plecaka&quot;)
+send(&quot;wez olej z plecaka&quot;)
+send(&quot;nl&quot;)
+send(&quot;nl&quot;)
+send(&quot;wloz olej do plecaka&quot;)
+send(&quot;zam&quot;)
+send(&quot;sp&quot;)</script>
+                    <command></command>
+                    <packageName></packageName>
+                    <regex>^spr$</regex>
+                </Alias>
+                <Alias isActive="yes" isFolder="no">
+                    <name>kuj</name>
+                    <script>send(&quot;otworz plecak&quot;)
+send(&quot;wloz oskardzik do plecaka&quot;)
+send(&quot;wez stalowy kilof z plecaka&quot;)
+send(&quot;dobadz go&quot;)
+kierunek = matches[2]
+send(&quot;kuj &quot; .. kierunek .. &quot; sciane&quot;)</script>
+                    <command></command>
+                    <packageName></packageName>
+                    <regex>^ku (.*)$</regex>
+                </Alias>
+            </AliasGroup>
+            <Alias isActive="yes" isFolder="no">
+                <name>zniszcz olej</name>
+                <script>send(&quot;ot&quot;)
+send(&quot;wez olej z plecaka&quot;)
+send(&quot;zniszcz olej&quot;)
+send(&quot;zam&quot;)</script>
+                <command></command>
+                <packageName></packageName>
+                <regex>^zo$</regex>
+            </Alias>
+        </AliasGroup>
+    </AliasPackage>
+    <ActionPackage/>
+    <ScriptPackage/>
+    <KeyPackage>
+        <KeyGroup isActive="yes" isFolder="yes">
+            <name>Barsawia</name>
+            <packageName></packageName>
+            <script></script>
+            <command></command>
+            <keyCode>16777264</keyCode>
+            <keyModifier>0</keyModifier>
+            <KeyGroup isActive="yes" isFolder="yes">
+                <name>scinanie</name>
+                <packageName></packageName>
+                <script></script>
+                <command></command>
+                <keyCode>56</keyCode>
+                <keyModifier>536870912</keyModifier>
+                <Key isActive="yes" isFolder="no">
+                    <name>polnoc</name>
+                    <packageName></packageName>
+                    <script></script>
+                    <command>n;zw</command>
+                    <keyCode>56</keyCode>
+                    <keyModifier>536870912</keyModifier>
+                </Key>
+                <Key isActive="yes" isFolder="no">
+                    <name>ne</name>
+                    <packageName></packageName>
+                    <script></script>
+                    <command>ne;zw</command>
+                    <keyCode>57</keyCode>
+                    <keyModifier>536870912</keyModifier>
+                </Key>
+                <Key isActive="yes" isFolder="no">
+                    <name>e</name>
+                    <packageName></packageName>
+                    <script></script>
+                    <command>e;zw</command>
+                    <keyCode>54</keyCode>
+                    <keyModifier>536870912</keyModifier>
+                </Key>
+                <Key isActive="yes" isFolder="no">
+                    <name>se</name>
+                    <packageName></packageName>
+                    <script></script>
+                    <command>se;zw</command>
+                    <keyCode>51</keyCode>
+                    <keyModifier>536870912</keyModifier>
+                </Key>
+                <Key isActive="yes" isFolder="no">
+                    <name>s</name>
+                    <packageName></packageName>
+                    <script></script>
+                    <command>s;zw</command>
+                    <keyCode>50</keyCode>
+                    <keyModifier>536870912</keyModifier>
+                </Key>
+                <Key isActive="yes" isFolder="no">
+                    <name>sw</name>
+                    <packageName></packageName>
+                    <script></script>
+                    <command>sw;zw</command>
+                    <keyCode>49</keyCode>
+                    <keyModifier>536870912</keyModifier>
+                </Key>
+                <Key isActive="yes" isFolder="no">
+                    <name>w</name>
+                    <packageName></packageName>
+                    <script></script>
+                    <command>w;zw</command>
+                    <keyCode>52</keyCode>
+                    <keyModifier>536870912</keyModifier>
+                </Key>
+                <Key isActive="yes" isFolder="no">
+                    <name>nw</name>
+                    <packageName></packageName>
+                    <script></script>
+                    <command>nw;zw</command>
+                    <keyCode>55</keyCode>
+                    <keyModifier>536870912</keyModifier>
+                </Key>
+            </KeyGroup>
+            <Key isActive="yes" isFolder="no">
+                <name>zbieranie monet</name>
+                <packageName></packageName>
+                <script></script>
+                <command>wez monety;wez monety z cial;wez mineraly z cial</command>
+                <keyCode>16777268</keyCode>
+                <keyModifier>0</keyModifier>
+            </Key>
+            <Key isActive="yes" isFolder="no">
+                <name>kondycja</name>
+                <packageName></packageName>
+                <script></script>
+                <command>k</command>
+                <keyCode>16777267</keyCode>
+                <keyModifier>0</keyModifier>
+            </Key>
+            <Key isActive="yes" isFolder="no">
+                <name>wsparcie</name>
+                <packageName></packageName>
+                <script></script>
+                <command>wesprzyj</command>
+                <keyCode>16777266</keyCode>
+                <keyModifier>0</keyModifier>
+            </Key>
+            <KeyGroup isActive="yes" isFolder="yes">
+                <name>gornictwo</name>
+                <packageName></packageName>
+                <script></script>
+                <command></command>
+                <keyCode>-1</keyCode>
+                <keyModifier>-1</keyModifier>
+                <Key isActive="yes" isFolder="no">
+                    <name>n</name>
+                    <packageName></packageName>
+                    <script></script>
+                    <command>zbadaj n sciane</command>
+                    <keyCode>56</keyCode>
+                    <keyModifier>603979776</keyModifier>
+                </Key>
+                <Key isActive="yes" isFolder="no">
+                    <name>ne</name>
+                    <packageName></packageName>
+                    <script></script>
+                    <command>zbadaj ne sciane</command>
+                    <keyCode>57</keyCode>
+                    <keyModifier>603979776</keyModifier>
+                </Key>
+                <Key isActive="yes" isFolder="no">
+                    <name>e</name>
+                    <packageName></packageName>
+                    <script></script>
+                    <command>zbadaj e sciane</command>
+                    <keyCode>54</keyCode>
+                    <keyModifier>603979776</keyModifier>
+                </Key>
+                <Key isActive="yes" isFolder="no">
+                    <name>se</name>
+                    <packageName></packageName>
+                    <script></script>
+                    <command>zbadaj se sciane</command>
+                    <keyCode>51</keyCode>
+                    <keyModifier>603979776</keyModifier>
+                </Key>
+                <Key isActive="yes" isFolder="no">
+                    <name>s</name>
+                    <packageName></packageName>
+                    <script></script>
+                    <command>zbadaj s sciane</command>
+                    <keyCode>50</keyCode>
+                    <keyModifier>603979776</keyModifier>
+                </Key>
+                <Key isActive="yes" isFolder="no">
+                    <name>sw</name>
+                    <packageName></packageName>
+                    <script></script>
+                    <command>zbadaj sw sciane</command>
+                    <keyCode>49</keyCode>
+                    <keyModifier>603979776</keyModifier>
+                </Key>
+                <Key isActive="yes" isFolder="no">
+                    <name>w</name>
+                    <packageName></packageName>
+                    <script></script>
+                    <command>zbadaj w sciane</command>
+                    <keyCode>52</keyCode>
+                    <keyModifier>603979776</keyModifier>
+                </Key>
+                <Key isActive="yes" isFolder="no">
+                    <name>nw</name>
+                    <packageName></packageName>
+                    <script></script>
+                    <command>zbadaj nw sciane</command>
+                    <keyCode>55</keyCode>
+                    <keyModifier>603979776</keyModifier>
+                </Key>
+                <Key isActive="yes" isFolder="no">
+                    <name>sprawdzenie</name>
+                    <packageName></packageName>
+                    <script></script>
+                    <command>spr</command>
+                    <keyCode>16777265</keyCode>
+                    <keyModifier>0</keyModifier>
+                </Key>
+            </KeyGroup>
+            <Key isActive="yes" isFolder="no">
+                <name>scinanie alias</name>
+                <packageName></packageName>
+                <script></script>
+                <command>zet</command>
+                <keyCode>16777264</keyCode>
+                <keyModifier>0</keyModifier>
+            </Key>
+        </KeyGroup>
+    </KeyPackage>
+</MudletPackage>
